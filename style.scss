@@ -1,0 +1,32 @@
+body, html {
+    width: 100%;
+    background-color: #000;
+    ::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+* {
+    margin: 0px;
+    color: #fff;
+}
+.ProgressBar_wrapper {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+
+    .ProgressBar_indicator {
+        width: 0px;
+        height: 6px;
+        background-color: #fff;
+    }
+}
+
+.main_wrapper {
+    width: 60%;
+    margin: 200px auto 0px auto;
+    .txt_content {
+        padding: 40px 0px 20px 0px;
+    }
+}
+
